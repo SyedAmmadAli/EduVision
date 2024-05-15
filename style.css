@@ -80,7 +80,8 @@
 .ourServices i{
    font-size: 70px;
    border-right: #000000 4px solid;
-   padding-right: 30px;
+   padding-right: 25px;
+   color: var(--yellow);
 }
 
 .ourServices img {
@@ -90,9 +91,22 @@
 
 .services_tab1{
     display: flex;
-    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-/* .services_tab1 h2{
-    margin-left: 20px;
-} */
+.ourServices a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.ourServices a h2{
+    color: var(--blue);
+}
+
+.ourServices a p{
+    color: var(--grey);
+}
+
+.footer{
+    background-color: var(--blue) !important;
+}
