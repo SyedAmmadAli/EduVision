@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --white: #fff;
+    --yellow: #d4923b;
+    --dark: #000000;
+    --grey: #a9afc3;
+    --blue: #00426b;
+    
+
+}
+
+.navbar{
+    background-color: var(--blue) !important;
+}
+
+.navbar-brand{
+    color: var(--yellow) !important;
+}
+
+.navbar .active{
+
+    color: var(--yellow) !important;
+}
+
+
+.carousel-caption{
+    bottom: initial;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* .Services_cards{
+    min-height: 300;
+} */
+
+
+
+.Services_cards .card {
+    background-color: #00426b;
+}
+
+.Services_cards .card i{
+    font-size: 50px;
+    color: var(--yellow);
+}
+
+.about_Sect{
+    min-height: 70vh;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+}
+
+.about_Sect hr{
+    background-color: var(--yellow) !important ;
+    border: 3px solid var(--yellow) !important;
+}
+
+.about_icons{
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.about_icons i{
+    font-size: 70px;
+    color: var(--yellow);
+}
