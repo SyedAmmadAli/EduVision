@@ -180,3 +180,70 @@
 .accordion-item {
     border: 1px solid var(--green) !important;
 }
+
+
+.contact-form {
+    background: #ffffff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+  }
+
+  .contact-form .form-control {
+    border-radius: 1rem;
+  }
+
+  /* .contact-form form {
+    padding: 14%;
+  } */
+/* 
+  .contact-form .form-group {
+    margin-bottom: 15px;
+  } */
+
+  .contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #28a745; /* Green color */
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .contact-form .btnContact:hover {
+    background: #218838; /* Darker green on hover */
+  }
+
+  .contact-form .btnContactSubmit {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #28a745; /* Green color */
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .contact-form .btnContactSubmit:hover {
+    background: #218838; /* Darker green on hover */
+  }
+
+  @media (max-width: 768px) {
+    .contact-form {
+      width: 90%;
+      margin-top: 20%;
+    }
+
+    .contact-form form {
+      padding: 10%;
+    }
+  }
+
+
+.mapSect{
+    width: 100%;
+    background-color: var(--green);
+}
