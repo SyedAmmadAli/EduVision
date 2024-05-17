@@ -50,6 +50,7 @@
 }
 
 .about_Sect {
+    width: 100%;
     min-height: 70vh;
     background-color: var(--green);
     display: flex;
@@ -57,6 +58,7 @@
 }
 
 .about_Sect hr {
+    
     background-color: var(--yellow) !important;
     border: 3px solid var(--yellow) !important;
 }
@@ -74,6 +76,7 @@
 }
 
 .ourServices {
+    width: 100%;
     min-height: 70vh;
     /* background-color: ; */
 }
@@ -128,4 +131,52 @@
     background-repeat: no-repeat;
     /* background-position: center; */
 
+}
+
+.about_page_SEC{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url('Assets/About_Sec.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    
+}
+
+.accordion-button {
+    color: var(--white) !important;
+    box-shadow: none !important;
+    background-color: #0a8e51;
+
+}
+
+.accordion-button:focus {
+
+    background-color: #0a8e51;
+
+}
+
+.accordion-header{
+    background-color: var(--green);
+}
+
+.accordion-button.collapsed::after {
+    color: #dd4242;
+    filter: brightness(100%) invert(100%);
+
+}
+
+
+.accordion-button:not(.collapsed)::after {
+    color: #dd4242;
+    filter: brightness(100%) invert(100%);
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--green) !important;
+    color: var(--white) !important;
+}
+
+.accordion-item {
+    border: 1px solid var(--green) !important;
 }
