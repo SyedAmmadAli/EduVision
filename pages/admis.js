@@ -15,12 +15,13 @@ const admData = async () => {
 
                 adm_page.innerHTML +=
                 `<div class="col-lg-3 col-12" >
-                <div class="card" >
+                <div class="card mt-4" >
                 <img src="${element.logo}" class="card-img-top img-fluid" alt="..." style="width: 200px; height: 200px;">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="${element.link}" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">${element.Educational_Institution}</h5>
+                  <p class="card-text">${element.Degree_Level}</p>
+                  <p class="card-text fs-5"><b>Last Date:  </b>${element.Last_Date}</p>
+                  <a href="${element.link}" class="btn btn-primary">Apply Now</a>
                 </div>
               </div>
               </div>`

@@ -8,13 +8,14 @@
     --yellow: #d4923b;
     --dark: #000000;
     --grey: #a9afc3;
-    --blue: #00426b;
+    --green: #00426b;
+    --green: #198754;
 
 
 }
 
 .navbar {
-    background-color: var(--blue) !important;
+    background-color: var(--green) !important;
 }
 
 .navbar-brand {
@@ -40,7 +41,7 @@
 
 
 .Services_cards .card {
-    background-color: #00426b;
+    background-color: var(--green);
 }
 
 .Services_cards .card i {
@@ -50,7 +51,7 @@
 
 .about_Sect {
     min-height: 70vh;
-    background-color: var(--blue);
+    background-color: var(--green);
     display: flex;
     align-items: center;
 }
@@ -100,7 +101,7 @@
 }
 
 .ourServices a h2{
-    color: var(--blue);
+    color: var(--black);
 }
 
 .ourServices a p{
@@ -108,5 +109,23 @@
 }
 
 .footer{
-    background-color: var(--blue) !important;
+    background-color: var(--green) !important;
+}
+
+.admis_Sect{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url('Assets/uniSect.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+
+}
+
+.job_Sect{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url('Assets/hiring.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+
 }
