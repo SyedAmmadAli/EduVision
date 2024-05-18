@@ -27,7 +27,10 @@
     color: var(--yellow) !important;
 }
 
-
+.nav-link{
+    font-weight:normal;
+    color: var(--white);
+}
 .carousel-caption {
     bottom: initial;
     top: 50%;
@@ -247,3 +250,12 @@
     width: 100%;
     background-color: var(--green);
 }
+
+.Contact_page_SEC{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url('Assets/contact.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */ 
+}
+
